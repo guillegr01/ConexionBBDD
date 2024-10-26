@@ -13,11 +13,13 @@ const dbName = "back-enddb";
 
 await client.connect();
 console.log("Connected succesfully to server");
-const db = client.db(dbName);
-const UsersCollection = db.collection("users");
+const db = client.db(dbName);//elegimos la BBDD a la que queremos conectarnos dentro de nuestro cluster
+const UsersCollection = db.collection("users");//elegimos la colección que queramos de la BBDD
 
+//Convierte la coleción en un array
 const users = await UsersCollection.find().toArray();
 
+//Mostramos el array
 users.forEach((elem) => {
   console.log(elem);
 })
