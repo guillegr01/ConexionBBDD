@@ -42,3 +42,19 @@ Explicaremos como crear una BBDD en mongoDB Atlas y posteriormente conectarla a 
 
    #### Tras todo esto nos debería quedar un usuario tal que así: 
    ![image](https://github.com/user-attachments/assets/7cb4c827-9e3b-4636-8f9d-b86c65641aac)
+
+## Concetar BBDD en VS Code
+
+### Paso 1: Inicializar el proyecto en vs Code
+   - Abrir una carpeta 
+   - abrir el command palette "ctrl+shift+p"
+   - poner "Deno initialize workspace configuration"
+   - en la consola poner el comando "deno init"
+   - en el deno.json dar todos los persmisos "--allow-all"
+
+### Paso 2: Añadimos las librerias de mongodb con el gestor de paquetes npm
+   #### En la terminal de VS Code ponemos:
+   - deno add npm:mongodb
+   - tras añadir el comando, veremos que se nos crea un nuevo fichero llamado "deno.lock". Este archivo no hay que tocarlo.
+   - tambien veremos que en "deno.json" nos ha añadido en la sección de imports la libreria de mongodb.
+     ![image](https://github.com/user-attachments/assets/75839ca4-63bd-4625-a9a4-08454b169bcf)
