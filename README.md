@@ -19,6 +19,7 @@ Explicaremos como crear una BBDD en mongoDB Atlas y posteriormente conectarla a 
   - Damos nombre a la BBDD y a la collection de la BBDD
   - Dentro de la collecion creada nos creamos un elemento si le damos al botón de insert document
   - Le podremos poner los atributos que necesitemos  seleccionando su tipo de datos
+    
     #### Tras todos estos pasos nos debería quedar algo asi
     ![image](https://github.com/user-attachments/assets/dd9ee128-8a2a-4ec8-806a-1825e42dea02)
 
@@ -28,7 +29,7 @@ Explicaremos como crear una BBDD en mongoDB Atlas y posteriormente conectarla a 
    - Seleccionamos "add ip address"
    - Seleccionamos "allow access from anywhere" y confirmamos
 
-   Tras haber hecho esto tendremos lo siguiente:
+   #### Tras haber hecho esto tendremos lo siguiente:
    ![image](https://github.com/user-attachments/assets/ab44ecd3-d1f3-47fd-acbf-53962181c2f2)
 
 ### Paso 4: Crear un usuario para acceder a la BBDD
@@ -39,5 +40,5 @@ Explicaremos como crear una BBDD en mongoDB Atlas y posteriormente conectarla a 
    - En la sección "Built-in Role", damos a "add built-in role"
    - Le damos los permisos de "Atlas admin"
 
-   Tras todo esto nos debería quedar un usuario tal que así: 
+   #### Tras todo esto nos debería quedar un usuario tal que así: 
    ![image](https://github.com/user-attachments/assets/7cb4c827-9e3b-4636-8f9d-b86c65641aac)
