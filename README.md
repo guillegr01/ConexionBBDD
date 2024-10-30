@@ -19,3 +19,5 @@ Explicaremos como crear una BBDD en mongoDB Atlas y posteriormente conectarla a 
   - Damos nombre a la BBDD y a la collection de la BBDD
   - Dentro de la collecion creada nos creamos un elemento si le damos al botón de insert document
   - Le podremos poner los atributos que necesitemos  seleccionando su tipo de datos
+    #### Tras todos estos pasos nos debería quedar algo asi
+    ![image](https://github.com/user-attachments/assets/dd9ee128-8a2a-4ec8-806a-1825e42dea02)
